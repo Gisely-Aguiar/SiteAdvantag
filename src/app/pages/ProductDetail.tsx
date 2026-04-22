@@ -6,7 +6,7 @@ const productData: Record<string, any> = {
   "tag-bopp": {
     name: "TAG BOPP",
     category: "TAG Comum",
-    image: "https://images.unsplash.com/photo-1593955654387-9dcbc8ef8071?w=800",
+    image: "/tags/bopp.jfif",
     shortDescription: "TAG RFID em material BOPP para aplicações gerais com excelente custo-benefício. Ideal para varejo, inventário e controle de estoque.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -32,16 +32,12 @@ const productData: Record<string, any> = {
       "Compatível com todos os leitores UHF",
       "Produção nacional"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1593955654387-9dcbc8ef8071?w=800",
-      "https://images.unsplash.com/photo-1704175970187-1f7eaaa30312?w=800",
-      "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=800"
-    ]
+    
   },
   "tag-couchê": {
     name: "TAG Couchê",
     category: "TAG Comum",
-    image: "https://images.unsplash.com/photo-1704175970187-1f7eaaa30312?w=800",
+    image: "/tags/couche.jfif",
     shortDescription: "TAG RFID em papel couchê de alta qualidade para impressão térmica e etiquetação profissional.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -67,16 +63,12 @@ const productData: Record<string, any> = {
       "Fácil personalização",
       "Custo acessível"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1704175970187-1f7eaaa30312?w=800",
-      "https://images.unsplash.com/photo-1593955654387-9dcbc8ef8071?w=800",
-      "https://images.unsplash.com/photo-1764795849885-e226e3cabe87?w=800"
-    ]
+    
   },
   "tag-nylon": {
     name: "TAG Nylon",
     category: "TAG Comum",
-    image: "https://images.unsplash.com/photo-1765021690889-e49ba794c429?w=800",
+    image: "/img/nylon.jfif",
     shortDescription: "TAG RFID em nylon resistente, ideal para lavanderia industrial com alta durabilidade em processos de lavagem.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -102,16 +94,12 @@ const productData: Record<string, any> = {
       "Não danifica os tecidos",
       "Longa vida útil"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1765021690889-e49ba794c429?w=800",
-      "https://images.unsplash.com/photo-1593955654387-9dcbc8ef8071?w=800",
-      "https://images.unsplash.com/photo-1764795849885-e226e3cabe87?w=800"
-    ]
+    
   },
   "tag-jóias": {
     name: "TAG Jóias",
     category: "TAG Comum",
-    image: "https://images.unsplash.com/photo-1774110073583-2475ab5ed8b2?w=800",
+    image: "/img/joias.jfif",
     shortDescription: "TAG RFID compacta e discreta desenvolvida especialmente para joalheria e artigos de luxo.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -137,16 +125,12 @@ const productData: Record<string, any> = {
       "Alta segurança",
       "Remoção fácil após venda"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1774110073583-2475ab5ed8b2?w=800",
-      "https://images.unsplash.com/photo-1593955654387-9dcbc8ef8071?w=800",
-      "https://images.unsplash.com/photo-1764795849885-e226e3cabe87?w=800"
-    ]
+    
   },
   "tag-mármore": {
     name: "TAG Mármore",
     category: "TAG Especial",
-    image: "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=800",
+    image: "/tags/marmore.jfif",
     shortDescription: "TAG RFID desenvolvida especialmente para o setor de rochas ornamentais, resistente a ambientes agressivos.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -172,16 +156,12 @@ const productData: Record<string, any> = {
       "Fixação segura",
       "Alta resistência mecânica"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=800",
-      "https://images.unsplash.com/photo-1764185800646-f75f7e16e465?w=800",
-      "https://images.unsplash.com/photo-1720036236694-d0a231c52563?w=800"
-    ]
+    
   },
   "tag-lavanderia": {
     name: "TAG Lavanderia",
     category: "TAG Especial",
-    image: "https://images.unsplash.com/photo-1765021690889-e49ba794c429?w=800",
+    image: "/tags/lavanderia.jfif",
     shortDescription: "TAG RFID profissional em silicone para lavanderia industrial com resistência superior a 300 ciclos de lavagem.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -207,16 +187,12 @@ const productData: Record<string, any> = {
       "Não deforma",
       "Vida útil prolongada"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1765021690889-e49ba794c429?w=800",
-      "https://images.unsplash.com/photo-1593955654387-9dcbc8ef8071?w=800",
-      "https://images.unsplash.com/photo-1764795849885-e226e3cabe87?w=800"
-    ]
+    
   },
   "tag-reutilizável": {
     name: "TAG Reutilizável",
     category: "TAG Especial",
-    image: "https://images.unsplash.com/photo-1593955654387-9dcbc8ef8071?w=800",
+    image: "/tags/reutilizavel.jfif",
     shortDescription: "TAG RFID reutilizável em PVC durável para aplicações que exigem múltiplos usos e fácil remoção.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -242,16 +218,12 @@ const productData: Record<string, any> = {
       "Personalização completa",
       "Sustentável"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1593955654387-9dcbc8ef8071?w=800",
-      "https://images.unsplash.com/photo-1704175970187-1f7eaaa30312?w=800",
-      "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=800"
-    ]
+    
   },
   "flagtag": {
     name: "FlagTag",
     category: "TAG Especial",
-    image: "https://images.unsplash.com/photo-1704175970187-1f7eaaa30312?w=800",
+    image: "/tags/flagtag.jfif",
     shortDescription: "TAG RFID tipo bandeira para identificação de cabos, tubulações e estruturas com fácil visualização.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -277,16 +249,12 @@ const productData: Record<string, any> = {
       "Área para escrita manual",
       "Versátil"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1704175970187-1f7eaaa30312?w=800",
-      "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=800",
-      "https://images.unsplash.com/photo-1764185800646-f75f7e16e465?w=800"
-    ]
+    
   },
   "on-metal": {
     name: "On-Metal",
     category: "Alta Resistência",
-    image: "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=800",
+    image: "/tags/onmetal.jfif",
     shortDescription: "TAG RFID especialmente desenvolvida para aplicação em superfícies metálicas. Resistente e durável para ambientes industriais.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -312,16 +280,12 @@ const productData: Record<string, any> = {
       "Suporta ambientes agressivos",
       "Longa durabilidade"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=800",
-      "https://images.unsplash.com/photo-1764185800646-f75f7e16e465?w=800",
-      "https://images.unsplash.com/photo-1720036236694-d0a231c52563?w=800"
-    ]
+    
   },
   "alta-temperatura": {
     name: "Alta Temperatura",
     category: "Alta Resistência",
-    image: "https://images.unsplash.com/photo-1720036236694-d0a231c52563?w=800",
+    image: "/tags/hardtag.jfif",
     shortDescription: "TAG RFID cerâmica para aplicações em altíssimas temperaturas, ideal para indústria automotiva e siderúrgica.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -347,16 +311,12 @@ const productData: Record<string, any> = {
       "Não deforma com calor",
       "Alta confiabilidade"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1720036236694-d0a231c52563?w=800",
-      "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=800",
-      "https://images.unsplash.com/photo-1764185800646-f75f7e16e465?w=800"
-    ]
+    
   },
   "hardtag": {
     name: "HardTag",
     category: "Alta Resistência",
-    image: "https://images.unsplash.com/photo-1764185800646-f75f7e16e465?w=800",
+    image: "/tags/hardtag.jfif",
     shortDescription: "TAG RFID ultra resistente em policarbonato para ambientes extremamente agressivos e aplicações críticas.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -382,16 +342,12 @@ const productData: Record<string, any> = {
       "Resistente a químicos agressivos",
       "Máxima confiabilidade"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1764185800646-f75f7e16e465?w=800",
-      "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=800",
-      "https://images.unsplash.com/photo-1720036236694-d0a231c52563?w=800"
-    ]
+    
   },
   "tag-híbrida": {
     name: "TAG Híbrida",
     category: "Alta Resistência",
-    image: "https://images.unsplash.com/photo-1593955654387-9dcbc8ef8071?w=800",
+    image: "/tags/hibrida.jfif",
     shortDescription: "TAG RFID híbrida com múltiplas tecnologias (UHF + NFC) para aplicações que exigem flexibilidade.",
     specs: {
       frequency: "UHF (860-960 MHz) + NFC (13.56 MHz)",
@@ -417,11 +373,7 @@ const productData: Record<string, any> = {
       "Interação com smartphones",
       "Rastreamento e autenticação"
     ],
-    images: [
-      "https://images.unsplash.com/photo-1593955654387-9dcbc8ef8071?w=800",
-      "https://images.unsplash.com/photo-1704175970187-1f7eaaa30312?w=800",
-      "https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=800"
-    ]
+    
   }
 };
 
@@ -476,24 +428,14 @@ export default function ProductDetail() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
           {/* Images */}
           <div>
-            <div className="bg-white rounded-xl overflow-hidden shadow-lg mb-4">
+            <div className="bg-white rounded-xl overflow-hidden shadow-lg h-full">
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full aspect-square object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
-            <div className="grid grid-cols-3 gap-4">
-              {product.images.map((img: string, index: number) => (
-                <div key={index} className="bg-white rounded-lg overflow-hidden shadow">
-                  <img
-                    src={img}
-                    alt={`${product.name} ${index + 1}`}
-                    className="w-full aspect-square object-cover hover:scale-110 transition cursor-pointer"
-                  />
-                </div>
-              ))}
-            </div>
+           
           </div>
 
           {/* Info */}
@@ -587,28 +529,6 @@ export default function ProductDetail() {
           </div>
         </div>
 
-        {/* Real application images */}
-        <div className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Aplicações Reais
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {product.images.map((img: string, index: number) => (
-              <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg">
-                <img
-                  src={img}
-                  alt={`Aplicação ${index + 1}`}
-                  className="w-full aspect-video object-cover"
-                />
-                <div className="p-4">
-                  <p className="text-sm text-gray-600">
-                    Aplicação em ambiente real
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
 
         {/* CTA */}
         <div className="bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-xl p-8 text-center text-white">
@@ -619,8 +539,10 @@ export default function ProductDetail() {
             Nossa equipe comercial está pronta para ajudar
           </p>
           <a
-            href="#contato"
-            className="inline-block bg-white text-cyan-600 hover:bg-gray-100 px-8 py-3 rounded-lg transition font-medium"
+            href="https://wa.me/551143010636?text=Ol%C3%A1%2C%20venho%20atrav%C3%A9s%20do%20site%20da%20Advantag%20e%20gostaria%20de%20falar%20com%20o%20comercial."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-white text-cyan-600 hover:bg-gray-100 px-8 py-3 rounded-lg transition font-medium cursor-pointer"
           >
             Fale com o Comercial
           </a>

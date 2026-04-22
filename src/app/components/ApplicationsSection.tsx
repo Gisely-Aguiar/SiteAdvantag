@@ -5,7 +5,7 @@ const applications = {
     {
       title: "Rastreamento de Paletes",
       description: "Controle total de movimentação em centros de distribuição",
-      image: "https://images.unsplash.com/photo-1768796372882-8b67936af681?w=600"
+      image: "https://wordpress-cms-revista-prod-assets.quero.space/uploads/2025/01/logistica-1024x576.jpg"
     },
     {
       title: "Gestão de Inventário",
