@@ -35,7 +35,7 @@ export function PartnersSection() {
             Parceiros Estratégicos
           </h2>
           <p className="text-lg text-gray-600">
-            A Advantag atua com parceiros estratégicos para ampliar sua capacidade tecnológica
+            A Advantag atua com parceiros estratégicos para ampliar sua  tecnológica
           </p>
         </div>
 

@@ -68,7 +68,7 @@ const productData: Record<string, any> = {
   "tag-nylon": {
     name: "TAG Nylon",
     category: "TAG Comum",
-    image: "/img/nylon.jfif",
+    image: "/tags/nylon.jfif",
     shortDescription: "TAG RFID em nylon resistente, ideal para lavanderia industrial com alta durabilidade em processos de lavagem.",
     specs: {
       frequency: "UHF (860-960 MHz)",
@@ -99,7 +99,7 @@ const productData: Record<string, any> = {
   "tag-jóias": {
     name: "TAG Jóias",
     category: "TAG Comum",
-    image: "/img/joias.jfif",
+    image: "/tags/joias.jfif",
     shortDescription: "TAG RFID compacta e discreta desenvolvida especialmente para joalheria e artigos de luxo.",
     specs: {
       frequency: "UHF (860-960 MHz)",
