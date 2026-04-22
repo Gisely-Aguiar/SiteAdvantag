@@ -36,6 +36,13 @@ export function CABSection() {
           <p className="text-xl text-gray-300">
             Impressoras industriais de alto desempenho e suporte técnico completo
           </p>
+          <a
+            href="/cab_identification_de_productos_es.pdf"
+            download
+            className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-3 rounded-lg transition font-medium"
+          >
+            Baixar Catálogo
+          </a>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -76,11 +83,15 @@ export function CABSection() {
             Nossa equipe está pronta para ajudar você a escolher a melhor solução
           </p>
           <a
-            href="#contato"
+            href="https://wa.me/551143010636?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20da%20Advantag%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es!"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-white text-red-600 hover:bg-gray-100 px-8 py-3 rounded-lg transition font-medium"
           >
             Fale com Especialista
           </a>
+
+          
         </div>
       </div>
     </section>

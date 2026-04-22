@@ -6,30 +6,30 @@ const tagCategories = [
     title: "TAGs Comuns",
     description: "TAGs para aplicações gerais com excelente custo-benefício",
     tags: [
-      { name: "TAG BOPP", id: "tag-bopp", image: "https://www.aartgraf.com.br/media/catalog/product/cache/1/image/1028x1028/eb8d37da8cd435603d2090a66a95cf8c/e/t/etiqueta_50x30_mm_bopp.jpg", app: "Varejo e inventário" },
-      { name: "TAG Couchê", id: "tag-couchê", image: "https://http2.mlstatic.com/D_Q_NP_878023-MLA95241127222_102025-O.webp", app: "Documentos e etiquetas" },
-      { name: "TAG Nylon", id: "tag-nylon", image: "https://m.media-amazon.com/images/I/71IVcvdS+dL.jpg", app: "Lavanderia industrial" },
-      { name: "TAG Jóias", id: "tag-jóias", image: "https://down-br.img.susercontent.com/file/23cbdee574710e3a3019eec6b9dcdfd1", app: "Joalheria e luxo" }
+      { name: "TAG BOPP", id: "tag-bopp", image: "/tags/bopp.jfif", app: "Varejo e inventário" },
+      { name: "TAG Couchê", id: "tag-couchê", image: "/tags/couche.jfif", app: "Documentos e etiquetas" },
+      { name: "TAG Nylon", id: "tag-nylon", image: "/tags/nylon.jfif", app: "Lavanderia industrial" },
+      { name: "TAG Jóias", id: "tag-jóias", image: "/tags/joias.jfif", app: "Joalheria e luxo" }
     ]
   },
   {
     title: "TAGs Especiais",
     description: "Desenvolvidas para aplicações técnicas específicas",
     tags: [
-      { name: "TAG Mármore", id: "tag-mármore", image: "https://content.store.gototags.com/media/catalog/product/cache/f105ae4d8826b0cb09a14ad6bcce45e8/3/0/3008274_midas_flagtag_white_wet_inlay_front.jpg", app: "Setor de rochas" },
-      { name: "TAG Lavanderia", id: "tag-lavanderia", image: "https://ecdn6.globalso.com/upload/p/320/image_other/2024-03/65eeb6f2da40895211.jpg", app: "Lavanderia profissional" },
-      { name: "TAG Reutilizável", id: "tag-reutilizável", image: "https://m.media-amazon.com/images/I/611xFpJb8zL._AC_UF894,1000_QL80_.jpg", app: "Logística reversa" },
-      { name: "FlagTag", id: "flagtag", image: "https://static.ticimax.cloud/54431/uploads/urunresimleri/buyuk/rfid-uzun-menzilli-bayrak-etiketi-6a0730.jpg", app: "Identificação de cabos" }
+      { name: "TAG Mármore", id: "tag-mármore", image: "/tags/marmore.jfif", app: "Setor de rochas" },
+      { name: "TAG Lavanderia", id: "tag-lavanderia", image: "/tags/lavanderia.jfif", app: "Lavanderia profissional" },
+      { name: "TAG Reutilizável", id: "tag-reutilizável", image: "/tags/reutilizavel.jfif", app: "Logística reversa" },
+      { name: "FlagTag", id: "flagtag", image: "/tags/flagtag.jfif", app: "Identificação de cabos" }
     ]
   },
   {
     title: "TAGs de Alta Resistência",
     description: "Para ambientes extremos e aplicações críticas",
     tags: [
-      { name: "On-Metal", id: "on-metal", image: "https://cdn11.bigcommerce.com/s-ka7ofex/images/stencil/original/products/5083/22106/Zebra_2.67x1_Z-Ultimate_4000T_On-Metal_Flag_RFID_Label_For_Industrial_and_Desktop_Printers__77731.1740595495.jpg?c=2", app: "Ativos metálicos" },
-      { name: "Alta Temperatura", id: "alta-temperatura", image: "https://lh5.googleusercontent.com/proxy/Tp2x51xWYWaNNdneCuxNU7vpR522ZUUOH-HvddVvyYFvhEtXAZv4v7kt8rjyNVL7iLGpCJ2CjGNArGbxBk_mC16rSUJ-1pMTAW8HqFT9J2KxaJ3q6QLmX7xQDRc", app: "Indústria automotiva" },
-      { name: "HardTag", id: "hardtag", image: "https://www.idplate.com/wp-content/uploads/Universal-hard-tag-m_0.png", app: "Ambientes agressivos" },
-      { name: "TAG Híbrida", id: "tag-híbrida", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfB08mC44v1N9_0W2qUT2gGbyVkD_qUxa2iw&s", app: "Múltiplas tecnologias" }
+      { name: "On-Metal", id: "on-metal", image: "/tags/onmetal.jfif", app: "Ativos metálicos" },
+      { name: "Alta Temperatura", id: "alta-temperatura", image: "/tags/hardtag.jfif", app: "Indústria automotiva" },
+      { name: "HardTag", id: "hardtag", image: "/tags/hardtag.jfif", app: "Ambientes agressivos" },
+      { name: "TAG Híbrida", id: "tag-híbrida", image: "/tags/hibrida.jfif", app: "Múltiplas tecnologias" }
     ]
   }
 ];

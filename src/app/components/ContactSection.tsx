@@ -11,9 +11,24 @@ export function ContactSection() {
   });
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert("Mensagem enviada! Entraremos em contato em breve.");
-  };
+  e.preventDefault();
+
+  const subject = "Contato via site - Advantag";
+
+  const body = `
+Nome: ${formData.name}
+Email: ${formData.email}
+Telefone: ${formData.phone}
+Empresa: ${formData.company}
+
+Mensagem:
+${formData.message}
+`;
+
+  const mailtoLink = `mailto:contato@advantag.com.br?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  window.location.href = mailtoLink;
+};
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({

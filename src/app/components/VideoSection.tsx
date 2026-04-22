@@ -42,7 +42,7 @@ export function VideoSection() {
               <div className="absolute inset-0">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+                  src="https://www.youtube.com/embed/BU2pinrgAD0?autoplay=1"
                   title="Advantag Video"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

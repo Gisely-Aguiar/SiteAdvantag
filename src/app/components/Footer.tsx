@@ -24,16 +24,39 @@ export function Footer() {
               Fabricante nacional de TAGs RFID com produção própria e know-how técnico aplicado.
             </p>
             <div className="flex gap-3">
-              <a href="#" className="hover:text-cyan-400 transition">
+              <a 
+                href="https://web.facebook.com/AdvantagRFID" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-cyan-400 transition"
+              >
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-cyan-400 transition">
+
+              <a 
+                href="https://www.instagram.com/advantagrfid?igsh=MWh3NzY4OWxhOTMyNw%3D%3D" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-cyan-400 transition"
+              >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-cyan-400 transition">
+
+              <a 
+                href="https://www.linkedin.com/company/advantag/posts/?feedView=all" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-cyan-400 transition"
+              >
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="hover:text-cyan-400 transition">
+
+              <a 
+                href="https://www.youtube.com/@advantagrfid" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-cyan-400 transition"
+              >
                 <Youtube className="w-5 h-5" />
               </a>
             </div>
