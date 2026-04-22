@@ -8,7 +8,7 @@ const slides = [
     id: 1,
     title: "Capacidade, atendimento e inovação aplicados ao RFID",
     description: "A Advantag representa a união entre capacidade técnica, atendimento próximo e inovação constante. Mais do que fornecer produtos, entregamos conhecimento, confiabilidade e soluções reais.",
-    image: "https://images.unsplash.com/photo-1720036236694-d0a231c52563?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxSRklEJTIwdGFnJTIwZmFjdG9yeSUyMG1hbnVmYWN0dXJpbmd8ZW58MXx8fHwxNzc0NjQxMjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "/img/adv1.jfif",
     cta: "Quem somos",
     link: "#quem-somos"
   },
@@ -16,7 +16,7 @@ const slides = [
     id: 2,
     title: "RFID veio para ficar",
     description: "RFID é uma tecnologia que permite identificar, rastrear e controlar itens de forma automática e precisa. Hoje é essencial para empresas que buscam eficiência e produtividade.",
-    image: "https://images.unsplash.com/photo-1593955654387-9dcbc8ef8071?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxSRklEJTIwY2hpcCUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzc0NjQxMjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "/img/adv2.jfif",
     cta: "Produtos RFID",
     link: "#rfid"
   },
@@ -24,7 +24,7 @@ const slides = [
     id: 3,
     title: "One Stop Solution em RFID",
     description: "A Advantag conecta tecnologia, parceiros e conhecimento para entregar soluções completas para empresas de todos os portes.",
-    image: "https://images.unsplash.com/photo-1737703121444-c568a9d3bc0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwdGVjaG5vbG9neSUyMGxhYm9yYXRvcnl8ZW58MXx8fHwxNzc0NjQxMjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "/img/adv3.jfif",
     cta: "Produtos",
     link: "/catalogo"
   }

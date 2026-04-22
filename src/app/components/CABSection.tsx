@@ -3,23 +3,23 @@ import { Wrench } from "lucide-react";
 const cabProducts = [
   {
     name: "Catálogo de Modelos",
-    image: "https://images.unsplash.com/photo-1630327722923-5ebd594ddda9?w=600",
+    image: "/img/adv2.jfif",
     description: "Conheça nossa linha completa de impressoras CAB para diferentes necessidades e volumes de produção"
   },
   {
     name: "Manutenção Preventiva",
-    image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/img/adv3.jfif",
     description: "Serviço especializado para manter seu equipamento em perfeito estado, evitando paradas não programadas",
     isService: true
   },
   {
     name: "Reparos por Danos",
-    image: "https://media.istockphoto.com/id/1156204551/pt/foto/a-man-breaks-a-computer-using-locksmith-tools.jpg?s=1024x1024&w=is&k=20&c=5IPNPpmhQGEo_MrWe95Om2KNv5-o57x7n11cxG4bI0I=",
+    image: "/img/adv4.jfif",
     description: "Reparo técnico especializado para danos acidentais ou desgaste avançado do equipamento"
   },
   {
     name: "Peças Originais",
-    image: "https://plus.unsplash.com/premium_photo-1681426666763-ed28d7310edf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/img/adv5.jfif",
     description: "Fornecimento de peças originais CAB com garantia e procedência certificada",
     isService: true
   }
