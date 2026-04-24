@@ -3,23 +3,23 @@ import { Wrench } from "lucide-react";
 const cabProducts = [
   {
     name: "Catálogo de Modelos",
-    image: "/CAB/cab1.jpg",
+    image: "/CAB/CAB1.png",
     description: "Conheça nossa linha completa de impressoras CAB para diferentes necessidades e volumes de produção"
   },
   {
     name: "Manutenção Preventiva",
-    image: "/CAB/cab2.jpg",
+    image: "/CAB/CAB2.png",
     description: "Serviço especializado para manter seu equipamento em perfeito estado, evitando paradas não programadas",
     isService: true
   },
   {
     name: "Reparos por Danos",
-    image: "/CAB/cab3.jpg",
+    image: "/CAB/CAB3.png",
     description: "Reparo técnico especializado para danos acidentais ou desgaste avançado do equipamento"
   },
   {
     name: "Peças Originais",
-    image: "/CAB/cab4.jpg",
+    image: "/CAB/CAB4.png",
     description: "Fornecimento de peças originais CAB com garantia e procedência certificada",
     isService: true
   }
@@ -55,7 +55,7 @@ export function CABSection() {
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition"
+                  className="w-full h-full object-contain group-hover:scale-110 transition"
                 />
                 {product.isService && (
                   <div className="absolute top-4 right-4 bg-cyan-500 p-3 rounded-full">
