@@ -315,7 +315,7 @@ const productData: Record<string, any> = {
     image: "/tags/hibrida.jfif",
     shortDescription: "TAG RFID Híbrida Advantag, a melhor forma de controlar ativos metálicos ou não, versátil e maleável. Escolha única para diversas aplicações.",
     specs: {
-      frequency: "UHF (860-960 MHz) + NFC (13.56 MHz)",
+      frequency: "UHF (860-960 MHz)",
       material: "Multi-camadas",
       dimensions: "80 x 50 mm",
       chip: "Família Impinj M800",

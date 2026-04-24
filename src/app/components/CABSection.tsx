@@ -3,23 +3,23 @@ import { Wrench } from "lucide-react";
 const cabProducts = [
   {
     name: "Catálogo de Modelos",
-    image: "/img/adv2.jfif",
+    image: "/CAB/cab1.jpg",
     description: "Conheça nossa linha completa de impressoras CAB para diferentes necessidades e volumes de produção"
   },
   {
     name: "Manutenção Preventiva",
-    image: "/img/adv3.jfif",
+    image: "/CAB/cab2.jpg",
     description: "Serviço especializado para manter seu equipamento em perfeito estado, evitando paradas não programadas",
     isService: true
   },
   {
     name: "Reparos por Danos",
-    image: "/img/adv4.jfif",
+    image: "/CAB/cab3.jpg",
     description: "Reparo técnico especializado para danos acidentais ou desgaste avançado do equipamento"
   },
   {
     name: "Peças Originais",
-    image: "/img/adv5.jfif",
+    image: "/CAB/cab4.jpg",
     description: "Fornecimento de peças originais CAB com garantia e procedência certificada",
     isService: true
   }
