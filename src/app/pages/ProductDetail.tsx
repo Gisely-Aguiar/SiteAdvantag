@@ -12,7 +12,7 @@ const productData: Record<string, any> = {
       frequency: "UHF (860-960 MHz)",
       material: "BOPP (Polipropileno Biorientado)",
       dimensions: "95 x 25 mm",
-      chip: "Impinj M730 / Alien H3",
+      chip: "Família Impinj M800",
       readRange: "Até 8 metros",
       temperature: "-20°C a +60°C",
       adhesive: "Acrílico permanente",
@@ -43,7 +43,7 @@ const productData: Record<string, any> = {
       frequency: "UHF (860-960 MHz)",
       material: "Papel Couchê",
       dimensions: "100 x 30 mm",
-      chip: "Impinj M730",
+      chip: "Família Impinj M800",
       readRange: "Até 7 metros",
       temperature: "-10°C a +50°C",
       adhesive: "Acrílico removível ou permanente",
@@ -53,7 +53,6 @@ const productData: Record<string, any> = {
       "Etiquetas para documentos",
       "Identificação de arquivos",
       "Controle patrimonial",
-      "Gestão de bibliotecas",
       "Rastreamento de caixas"
     ],
     benefits: [
@@ -69,26 +68,24 @@ const productData: Record<string, any> = {
     name: "TAG Nylon",
     category: "TAG Comum",
     image: "/tags/nylon.jfif",
-    shortDescription: "TAG RFID em nylon resistente, ideal para lavanderia industrial com alta durabilidade em processos de lavagem.",
+    shortDescription: "TAG RFID em nylon, ideal para identificação de produtos têxteis, BigBags e sacas.",
     specs: {
       frequency: "UHF (860-960 MHz)",
-      material: "Nylon texturizado",
+      material: "Nylon Texturizado ou termo colante",
       dimensions: "25 x 25 mm",
-      chip: "Impinj M750",
+      chip: "Família Impinj M800",
       readRange: "Até 3 metros",
       temperature: "-20°C a +90°C",
       washCycles: "Mais de 200 ciclos",
       fixation: "Costura ou adesivo"
     },
     applications: [
-      "Lavanderia industrial",
-      "Uniformes corporativos",
-      "Roupas hospitalares",
-      "Hotelaria",
-      "Gestão de enxovais"
+      "Roupas",
+      "Enxovais",
+      "BigBags",
+      "Sacas e qualquer produtos têxtil"
     ],
     benefits: [
-      "Resiste a múltiplos ciclos de lavagem",
       "Suporta altas temperaturas",
       "Flexível e confortável",
       "Não danifica os tecidos",
@@ -105,7 +102,7 @@ const productData: Record<string, any> = {
       frequency: "UHF (860-960 MHz)",
       material: "Papel especial",
       dimensions: "15 x 10 mm (micro)",
-      chip: "NXP UCODE 8",
+      chip: "Família Impinj M800",
       readRange: "Até 4 metros",
       temperature: "-10°C a +50°C",
       adhesive: "Adesivo delicado",
@@ -136,7 +133,7 @@ const productData: Record<string, any> = {
       frequency: "UHF (860-960 MHz)",
       material: "Compósito resistente",
       dimensions: "80 x 40 x 8 mm",
-      chip: "Impinj M750",
+      chip: "Família Impinj M800",
       readRange: "Até 6 metros",
       temperature: "-30°C a +120°C",
       resistance: "IP68 - Totalmente selada",
@@ -162,12 +159,12 @@ const productData: Record<string, any> = {
     name: "TAG Lavanderia",
     category: "TAG Especial",
     image: "/tags/lavanderia.jfif",
-    shortDescription: "TAG RFID profissional em silicone para lavanderia industrial com resistência superior a 300 ciclos de lavagem.",
+    shortDescription: "TAG RFID profissional, para identificação de enxovais e uniformes. Resistente a lavagem doméstica e industrial",
     specs: {
       frequency: "UHF (860-960 MHz)",
-      material: "Silicone médico",
+      material: "Polietileno especial",
       dimensions: "30 x 15 x 3 mm",
-      chip: "Impinj M750",
+      chip: "Família Impinj M800",
       readRange: "Até 4 metros",
       temperature: "-40°C a +120°C",
       washCycles: "Mais de 300 ciclos",
@@ -184,7 +181,6 @@ const productData: Record<string, any> = {
       "Ultra resistente a lavagens",
       "Suporta esterilização",
       "100% atóxico",
-      "Não deforma",
       "Vida útil prolongada"
     ],
     
@@ -198,7 +194,7 @@ const productData: Record<string, any> = {
       frequency: "UHF (860-960 MHz)",
       material: "PVC rígido",
       dimensions: "85 x 54 mm (formato cartão)",
-      chip: "NXP UCODE 8",
+      chip: "Família Impinj M800",
       readRange: "Até 7 metros",
       temperature: "-20°C a +70°C",
       durability: "Mais de 5 anos",
@@ -207,7 +203,6 @@ const productData: Record<string, any> = {
     applications: [
       "Logística reversa",
       "Controle de acesso",
-      "Identificação de colaboradores",
       "Containers e paletes retornáveis",
       "Gestão de ativos móveis"
     ],
@@ -227,9 +222,9 @@ const productData: Record<string, any> = {
     shortDescription: "TAG RFID tipo bandeira para identificação de cabos, tubulações e estruturas com fácil visualização.",
     specs: {
       frequency: "UHF (860-960 MHz)",
-      material: "Nylon reforçado",
+      material: "Material Especial",
       dimensions: "150 x 20 mm",
-      chip: "Impinj M730",
+      chip: "Família Impinj M800",
       readRange: "Até 5 metros",
       temperature: "-30°C a +85°C",
       resistance: "IP65",
@@ -260,7 +255,7 @@ const productData: Record<string, any> = {
       frequency: "UHF (860-960 MHz)",
       material: "ABS + Espuma isolante",
       dimensions: "50 x 50 x 5 mm",
-      chip: "Impinj M750",
+      chip: "Família Impinj M800",
       readRange: "Até 5 metros em metal",
       temperature: "-40°C a +85°C",
       resistance: "IP67 - À prova d'água",
@@ -282,37 +277,7 @@ const productData: Record<string, any> = {
     ],
     
   },
-  "alta-temperatura": {
-    name: "Alta Temperatura",
-    category: "Alta Resistência",
-    image: "/tags/hardtag.jfif",
-    shortDescription: "TAG RFID cerâmica para aplicações em altíssimas temperaturas, ideal para indústria automotiva e siderúrgica.",
-    specs: {
-      frequency: "UHF (860-960 MHz)",
-      material: "Cerâmica de alta performance",
-      dimensions: "40 x 20 x 10 mm",
-      chip: "Impinj M750 HT",
-      readRange: "Até 4 metros",
-      temperature: "-40°C a +250°C",
-      resistance: "IP68 + Resistente a choques",
-      fixation: "Parafuso ou rebite"
-    },
-    applications: [
-      "Indústria automotiva",
-      "Processos de pintura",
-      "Tratamento térmico",
-      "Rastreamento de peças em fornos",
-      "Ambiente de fundição"
-    ],
-    benefits: [
-      "Suporta temperaturas extremas",
-      "Resistente a produtos químicos",
-      "Durabilidade excepcional",
-      "Não deforma com calor",
-      "Alta confiabilidade"
-    ],
-    
-  },
+  
   "hardtag": {
     name: "HardTag",
     category: "Alta Resistência",
@@ -322,7 +287,7 @@ const productData: Record<string, any> = {
       frequency: "UHF (860-960 MHz)",
       material: "Policarbonato blindado",
       dimensions: "60 x 40 x 8 mm",
-      chip: "Impinj M750",
+      chip: "Família Impinj M800",
       readRange: "Até 6 metros",
       temperature: "-50°C a +120°C",
       resistance: "IP69K - Máxima proteção",
@@ -348,30 +313,27 @@ const productData: Record<string, any> = {
     name: "TAG Híbrida",
     category: "Alta Resistência",
     image: "/tags/hibrida.jfif",
-    shortDescription: "TAG RFID híbrida com múltiplas tecnologias (UHF + NFC) para aplicações que exigem flexibilidade.",
+    shortDescription: "TAG RFID Híbrida Advantag, a melhor forma de controlar ativos metálicos ou não, versátil e maleável. Escolha única para diversas aplicações.",
     specs: {
       frequency: "UHF (860-960 MHz) + NFC (13.56 MHz)",
       material: "Multi-camadas",
       dimensions: "80 x 50 mm",
-      chip: "Impinj M750 + NXP NTAG",
+      chip: "Família Impinj M800",
       readRange: "Até 8m (UHF) / 10cm (NFC)",
       temperature: "-30°C a +85°C",
       resistance: "IP67",
       fixation: "Adesivo industrial"
     },
     applications: [
-      "Autenticação de produtos",
       "Rastreabilidade completa",
       "Gestão de ativos premium",
-      "Controle de acesso duplo",
-      "Marketing interativo"
+      "Ativos metálicos",
+      "Ativos de plástico ou madeira"
     ],
     benefits: [
-      "Dupla tecnologia",
       "Versatilidade máxima",
       "Segurança aumentada",
-      "Interação com smartphones",
-      "Rastreamento e autenticação"
+      "Rastreamento"
     ],
     
   }
@@ -453,15 +415,16 @@ export default function ProductDetail() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a
-                href="#contato"
+                href={`https://wa.me/551143010636?text=${encodeURIComponent(
+                  `Olá! Tenho interesse no produto ${product.name} e gostaria de solicitar um orçamento.`
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex-1 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg transition font-medium text-center"
               >
                 Solicitar Orçamento
               </a>
-              <button className="flex-1 bg-white border-2 border-red-600 text-red-600 hover:bg-red-50 px-6 py-3 rounded-lg transition font-medium flex items-center justify-center gap-2">
-                <Download className="w-5 h-5" />
-                Download PDF
-              </button>
+              
             </div>
 
             {/* Benefits */}

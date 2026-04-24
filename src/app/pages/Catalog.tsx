@@ -11,13 +11,12 @@ const products = [
   
   // TAGs Especiais
   { id: "tag-mármore", name: "TAG Mármore", category: "especial", material: "Compósito", application: "Setor de rochas", image: "/tags/marmore.jfif" },
-  { id: "tag-lavanderia", name: "TAG Lavanderia", category: "especial", material: "Silicone", application: "Lavanderia profissional", image: "/tags/lavanderia.jfif" },
+  { id: "tag-lavanderia", name: "TAG Lavanderia", category: "especial", material: "Especial", application: "Lavanderia profissional", image: "/tags/lavanderia.jfif" },
   { id: "tag-reutilizável", name: "TAG Reutilizável", category: "especial", material: "PVC", application: "Logística reversa", image: "/tags/reutilizavel.jfif" },
-  { id: "flagtag", name: "FlagTag", category: "especial", material: "Nylon", application: "Identificação de cabos", image: "/tags/flagtag.jfif" },
+  { id: "flagtag", name: "FlagTag", category: "especial", material: "Especial", application: "Identificação de cabos", image: "/tags/flagtag.jfif" },
   
   // TAGs de Alta Resistência
   { id: "on-metal", name: "On-Metal", category: "alta-resistencia", material: "ABS", application: "Ativos metálicos", image: "/tags/onmetal.jfif" },
-  { id: "alta-temperatura", name: "Alta Temperatura", category: "alta-resistencia", material: "Cerâmica", application: "Indústria automotiva", image: "/tags/hardtag.jfif" },
   { id: "hardtag", name: "HardTag", category: "alta-resistencia", material: "Policarbonato", application: "Ambientes agressivos", image: "/tags/hardtag.jfif" },
   { id: "tag-híbrida", name: "TAG Híbrida", category: "alta-resistencia", material: "Multi-layer", application: "Múltiplas tecnologias", image: "/tags/hibrida.jfif" },
 ];

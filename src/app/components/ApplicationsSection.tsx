@@ -42,13 +42,13 @@ const applications = {
       image: "https://images.unsplash.com/photo-1513512995101-b6395de758b0?w=600"
     },
     {
-      title: "Gestão de Estoque",
-      description: "Inventário de madeira com precisão",
+      title: " Almoxarifado de peças",
+      description: "Controle de estoque de peças para reposição de máquinas, em pontos estratégicos e isolados",
       image: "https://plus.unsplash.com/premium_photo-1661814320476-721abd8135a0?q=80&w=901&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      title: "Rastreabilidade",
-      description: "Origem e cadeia de custódia documentada",
+      title: "Viveiro 4.0",
+      description: "Rastrear e controlar o processo produtivo de mudas",
       image: "https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ]

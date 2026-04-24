@@ -64,19 +64,19 @@ export function CommitmentSection() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center">
             <div className="text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600 mb-2">
-              8+
+              +9
             </div>
             <div className="text-gray-400">Anos de experiência</div>
           </div>
           <div className="text-center">
             <div className="text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-500 mb-2">
-              50+
+              +350
             </div>
             <div className="text-gray-400">Clientes ativos</div>
           </div>
           <div className="text-center">
             <div className="text-4xl lg:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600 mb-2">
-              15+
+              +50
             </div>
             <div className="text-gray-400">Tipos de TAGs</div>
           </div>

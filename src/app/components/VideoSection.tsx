@@ -20,7 +20,7 @@ export function VideoSection() {
           <div className="relative aspect-video bg-gray-900 rounded-xl overflow-hidden shadow-2xl">
             {/* Placeholder image */}
             <img
-              src="https://images.unsplash.com/photo-1720036236694-d0a231c52563?w=1200"
+              src="/logo/Advantag_capa.png"
               alt="Advantag em movimento"
               className="w-full h-full object-cover"
             />

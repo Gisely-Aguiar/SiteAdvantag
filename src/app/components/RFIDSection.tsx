@@ -27,7 +27,6 @@ const tagCategories = [
     description: "Para ambientes extremos e aplicações críticas",
     tags: [
       { name: "On-Metal", id: "on-metal", image: "/tags/onmetal.jfif", app: "Ativos metálicos" },
-      { name: "Alta Temperatura", id: "alta-temperatura", image: "/tags/hardtag.jfif", app: "Indústria automotiva" },
       { name: "HardTag", id: "hardtag", image: "/tags/hardtag.jfif", app: "Ambientes agressivos" },
       { name: "TAG Híbrida", id: "tag-híbrida", image: "/tags/hibrida.jfif", app: "Múltiplas tecnologias" }
     ]

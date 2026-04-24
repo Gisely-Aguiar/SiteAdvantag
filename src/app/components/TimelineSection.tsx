@@ -20,6 +20,21 @@ const timelineEvents = [
     description: "Crescimento da base de clientes e portfólio de produtos"
   },
   {
+    year: "2022",
+    title: "Invoação",
+    description: "Criação da TAG Híbrida e aquisição de 2 novas máquina"
+  },
+   {
+    year: "2023",
+    title: "Parcerias",
+    description: "Parceria com o SENAI"
+  },
+   {
+    year: "2024",
+    title: "Crescimento",
+    description: "Concorremos como melhor StartUp do Brasil"
+  },
+  {
     year: "2025",
     title: "Novo Galpão",
     description: "Ampliação da capacidade produtiva com novas instalações"

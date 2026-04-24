@@ -4,6 +4,8 @@ import { Footer } from "./Footer";
 import { ScrollToTop } from "./ScrollToTop";
 import { useEffect } from "react";
 
+import CookieBanner from "./CookieBanner";
+
 export function Layout() {
   const location = useLocation();
 
@@ -28,7 +30,9 @@ export function Layout() {
       <main className="flex-1">
         <Outlet />
       </main>
+      
       <Footer />
+      <CookieBanner />
       <ScrollToTop />
     </div>
   );

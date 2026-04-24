@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { Menu, Globe, Phone } from "lucide-react";
 import { useState } from "react";
+import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,15 +40,56 @@ export function Header() {
             <Link to="#contato" className="hover:text-red-600 transition">Contato</Link>
           </nav>
 
-          {/* CTA button */}
-          <div className="hidden lg:block">
-            <a
-              href="#contato"
-              className="bg-red-600 hover:bg-red-700 text-white px-6 py-2.5 rounded-lg transition font-medium"
-            >
-              Fale com o Comercial
-            </a>
-          </div>
+          {/* Social + CTA */}
+            <div className="hidden lg:flex items-center gap-4">
+
+              {/* Redes sociais */}
+              <div className="flex items-center gap-3 text-gray-600">
+                <a 
+                  href="https://web.facebook.com/AdvantagRFID"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-600 transition"
+                >
+                  <Facebook className="w-5 h-5" />
+                </a>
+
+                <a 
+                  href="https://www.instagram.com/advantagrfid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-600 transition"
+                >
+                  <Instagram className="w-5 h-5" />
+                </a>
+
+                <a 
+                  href="https://www.linkedin.com/company/advantag"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-600 transition"
+                >
+                  <Linkedin className="w-5 h-5" />
+                </a>
+
+                <a 
+                  href="https://www.youtube.com/@advantagrfid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-red-600 transition"
+                >
+                  <Youtube className="w-5 h-5" />
+                </a>
+              </div>
+
+              {/* Botão */}
+              <a
+                href="#contato"
+                className="bg-red-600 hover:bg-red-700 text-white px-6 py-2.5 rounded-lg transition font-medium"
+              >
+                Fale com o Comercial
+              </a>
+            </div>
 
           {/* Mobile menu button */}
           <button

@@ -114,9 +114,17 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
             <p>&copy; 2025 Advantag Tecnologia e Serviços Ltda. Todos os direitos reservados.</p>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-cyan-400 transition">Política de Privacidade</a>
-              <a href="#" className="hover:text-cyan-400 transition">Termos de Uso</a>
-              <a href="#" className="hover:text-cyan-400 transition">Cookies</a>
+              <Link to="/privacidade" className="hover:text-cyan-400 transition">
+                Política de Privacidade
+              </Link>
+
+              <Link to="/termos" className="hover:text-cyan-400 transition">
+                Termos de Uso
+              </Link>
+
+              <Link to="/cookies" className="hover:text-cyan-400 transition">
+                Cookies
+              </Link>
             </div>
           </div>
         </div>
